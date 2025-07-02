@@ -54,9 +54,9 @@ header {
   width: calc((100% - 80px) / 3);
 }
 @media screen and (max-width:1025px) {
-  .container__content .content_item {
-    width: calc((100% - 40px) / 2);
-  }
+.container__content .content_item {
+  width: calc((100% - 40px) / 2);
+}
 }
 .container__content .content_item figure {
   width: 100%;
@@ -83,6 +83,11 @@ header {
   width: 60%;
   aspect-ratio: 560/315;
   margin: 0 auto;
+}
+@media screen and (max-width:1025px) {
+.container__movie .movie_container {
+  width: 80%;
+}
 }
 .container__movie .movie_container iframe {
   object-fit: cover;
